@@ -2276,8 +2276,13 @@ input, select, textarea {
 /* Hero */
 
 	#hero {
-		position: relative;
-		color: #fff;
+		
+		background-image: url('IMG_3207.jpeg');
+	    background-size: cover;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    min-height: 400px; /* Adjust as needed */
+	    position: relative;
 		text-align: center;
 		z-index: 1;
 	}
